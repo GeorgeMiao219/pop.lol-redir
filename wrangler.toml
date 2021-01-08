@@ -1,6 +1,10 @@
+name = "pop-lol-router"
 type = "webpack"
-zone_id = ""
-account_id = ""
-route = ""
+zone_id = "4454b4c5e8371f310aaf07bd82ec8b55"
+account_id = "595a22d447b6f579a3bac7613e8aec5e"
+route = "*pop.lol"
 workers_dev = true
 webpack_config = "webpack.config.js"
+kv_namespaces = [
+  { binding = "LOG", id = "663014e1c1eb44cd904a92963c85e033", preview_id = "663014e1c1eb44cd904a92963c85e033"}
+]
